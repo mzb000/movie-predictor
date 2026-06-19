@@ -1,0 +1,25 @@
+# Dependencies
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# ML models (too large for git)
+backend/app/ml/models/
+
+# Data
+backend/data/*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
